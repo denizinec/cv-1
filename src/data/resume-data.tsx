@@ -20,268 +20,153 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "DENİZ İNEÇ",
+  initials: "DI",
+  location: "Ataşehir, İstanbul",
+  locationLink: "https://www.google.com/maps/place/Ataşehir",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented Full Stack Java Developer dedicated to building high-quality products.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I am a self-taught programmer with immense curiosity, not only a learner but also a lover of learning. I've been learning & coding Java through my education in university and I am very interested in them Java EE ecosystem. I'm a fast and self-learner. I can learn and complete tasks quickly with minimal supervision, even if I have no background. I love learning and using new technologies.So I focus on time-efficient and clean code and I follow best practices. I use the latest technologies and the latest versions of them. I can describe myself as a competitive person. I still seek knowledge and try to learn new stuff in every front. I love being solution-oriented.",
+  avatarUrl: "",
+  personalWebsiteUrl: "https://www.denizinec.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "denizinec9@gmail.com",
+    tel: "+905340771588",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/denizinec",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/denizinec/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Trakya University",
+      degree: "Bachelor's Degree in Computer Science and Information Systems / Computer Science.",
+      description: "Due my school's needs, almost all my lectures were practical and less theoratical. I got plenthora of lectures about programming languages and their technologies.",
+      gpa: "GPA: 3.1/4.0",
+      start: "2019",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      company: "Medkem",
+      link: "https://www.medkemtekstil.com/",
+      badges: ["Avcılar, Istanbul"],
+      title: "Software Developer Intern",
+      start: "06/2023",
+      location: "Sxd",
+      end: "09/2023",
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Implemented Python-based solutions for specific company needs in the textile industry." +
+        " Built and maintained web applications utilizing Django and Rest Framework."
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "PALACE Entertainment",
+      link: "https://www.palaceentertainment.com/",
+      badges: ["Wisconsin, USA"],
+      title: "Admissions",
+      start: "06/2022",
+      end: "09/2022",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "Collaborated with a diverse team to manage high volumes of foot traffic, demonstrating strong communication, improved English and teamwork skills. IT maintenance.",
     },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
-    },
+
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "Python",
+    "Django",
     "React/Next.js/Remix",
-    "Node.js",
+    "TypeScript",
+    "JavaScript",
+    "Agile",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Git",
+    "SQL",
+    "Docker",
   ],
+  skills2: [
+    "Communication",
+    "Problem-solving",
+    "Stress Management",
+    "Openness to criticism",
+  ],
+  language: [
+    "English: Writing/C1 (Working Proficiency), Speaking/B2 (Advanced)",
+    "Deutsch: A1 (Beginner)",
+  ],
+  
   projects: [
     {
-      title: "Parabol",
+      title: "Book Reviews",
       techStack: [
-        "Full Stack Developer",
+        "Full Stack",
         "TypeScript",
+        "Spring Boot",
         "React",
-        "Node.js",
-        "GraphQL",
+        "0Auth",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Simple Book Review App using Spring Boot/ReactJS",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/denizinec/fullstack-springboot-react-app",
       },
     },
     {
-      title: "Evercast",
+      title: "Unit-Testing",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Spring Boot",
+        "Unit Testing",
+
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Spring Boot, JUnit5, Mockito, AssertJ, JsonAssert, JsonPath",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        href: "https://github.com/denizinec/unit-testing",
       },
     },
     {
-      title: "Consultly",
+      title: "WebSocket Chat App",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "JavaScript",
+        "React",
+        "Spring Boot",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "A real-time chat application built with Spring Boot and WebSocket on the backend and React on the frontend.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "https://github.com/denizinec/react-ws-springboot-chatapp",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Job Portal",
+      techStack: ["Side Project", "MVC","Java Spring Boot","Thymeleaf","MySQL"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "End-to-end Spring MVC, Thymeleaf, Spring Security, JPA, Hibernate and MySQL Project",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        href: "https://github.com/denizinec/spring-mvc-job-search-app",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "bstakademi.com",
+      techStack: ["School Project", "MVT","Django","Phyton","SQLite","JavaScript","Bootstrap"],
       description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "A project where students can upload their final theses and course projects and can be followed by the course instructor on a weekly basis.",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/denizinec/bstakademi-django",
       },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

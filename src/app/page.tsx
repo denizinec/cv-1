@@ -20,7 +20,7 @@ export default function Page() {
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
+            <h1 className="text-3xl font-bold">{RESUME_DATA.name}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {RESUME_DATA.about}
             </p>
@@ -87,10 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+          
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
@@ -156,17 +153,48 @@ export default function Page() {
                 <CardContent className="mt-2 print:text-[12px]">
                   {education.degree}
                 </CardContent>
+                <CardContent className="mt-2 print:text-[12px]">
+                  {education.description}
+                </CardContent>
+                
+                <CardContent className="mt-2 print:text-[12px] font-bold">
+                  {education.gpa}
+                </CardContent>
               </Card>
             );
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
+          <h2 className="text-xl font-bold">Hard Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return (
                 <Badge className="print:text-[10px]" key={skill}>
                   {skill}
+                </Badge>
+              );
+            })}
+          </div>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Soft Skills</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills2.map((skill2) => {
+              return (
+                <Badge className="print:text-[10px]" key={skill2}>
+                  {skill2}
+                </Badge>
+              );
+            })}
+          </div>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Language</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.language.map((language) => {
+              return (
+                <Badge className="print:text-[10px]" key={language}>
+                  {language}
                 </Badge>
               );
             })}
