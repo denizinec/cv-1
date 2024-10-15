@@ -116,7 +116,7 @@ export const RESUME_DATA = {
         "TypeScript",
         "Spring Boot",
         "React",
-        "0Auth",
+        "Auth0",
       ],
       description:
         "Simple Book Review App using Spring Boot/ReactJS",
